@@ -68,20 +68,17 @@
                   <EmptySpace pref="130" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="RegistrarseButton" min="-2" pref="100" max="-2" attributes="0"/>
-                              <Component id="LoginButton" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="LoginButton" pref="109" max="32767" attributes="0"/>
+                              <Component id="RegistrarseButton" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="1" max="-2" attributes="0">
                               <Component id="Titulo" alignment="0" pref="209" max="32767" attributes="0"/>
-                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                  <Component id="UsuarioLog" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="ContraLog" alignment="0" max="32767" attributes="0"/>
-                              </Group>
+                              <Component id="UsuarioLog" alignment="0" max="32767" attributes="0"/>
+                              <Component id="ContraLog" alignment="0" max="32767" attributes="0"/>
                               <Component id="UserLabel" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
                               <Component id="ContraLabel" alignment="0" min="-2" pref="69" max="-2" attributes="0"/>
                           </Group>
