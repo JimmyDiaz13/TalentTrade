@@ -43,7 +43,7 @@ public class VistaRegistro extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         GuardarLog = new javax.swing.JButton();
         LoginLog = new javax.swing.JButton();
-        ContraseñaLog = new javax.swing.JPasswordField();
+        ContraLog = new javax.swing.JPasswordField();
         UsuarioLog = new javax.swing.JTextField();
         NombreLog = new javax.swing.JTextField();
         ApellidoLog = new javax.swing.JTextField();
@@ -131,7 +131,7 @@ public class VistaRegistro extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(CorreoLog, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
-                            .addComponent(ContraseñaLog)
+                            .addComponent(ContraLog)
                             .addComponent(ApellidoLog)
                             .addComponent(NombreLog)
                             .addComponent(UsuarioLog))
@@ -193,7 +193,7 @@ public class VistaRegistro extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel6)
-                            .addComponent(ContraseñaLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(ContraLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(40, 40, 40)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(LoginLog)
@@ -258,12 +258,12 @@ public class VistaRegistro extends javax.swing.JFrame {
         this.ApellidoLog = ApellidoLog;
     }
 
-    public JPasswordField getContraseñaLog() {
-        return ContraseñaLog;
+    public JPasswordField getContraLog() {
+        return ContraLog;
     }
 
-    public void setContraseñaLog(JPasswordField ContraseñaLog) {
-        this.ContraseñaLog = ContraseñaLog;
+    public void setContraLog(JPasswordField ContraLog) {
+        this.ContraLog = ContraLog;
     }
 
     public JTextField getCorreoLog() {
@@ -334,7 +334,7 @@ public class VistaRegistro extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField ApellidoLog;
-    private javax.swing.JPasswordField ContraseñaLog;
+    private javax.swing.JPasswordField ContraLog;
     private javax.swing.JTextField CorreoLog;
     private com.toedter.calendar.JDateChooser FechaNac;
     private javax.swing.JCheckBox FemeninoLog;

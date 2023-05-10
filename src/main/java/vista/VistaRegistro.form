@@ -66,7 +66,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="CorreoLog" alignment="0" pref="156" max="32767" attributes="0"/>
-                              <Component id="ContraseñaLog" alignment="0" max="32767" attributes="0"/>
+                              <Component id="ContraLog" alignment="0" max="32767" attributes="0"/>
                               <Component id="ApellidoLog" alignment="0" max="32767" attributes="0"/>
                               <Component id="NombreLog" alignment="0" max="32767" attributes="0"/>
                               <Component id="UsuarioLog" alignment="0" max="32767" attributes="0"/>
@@ -148,7 +148,7 @@
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="ContraseñaLog" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ContraLog" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -269,7 +269,7 @@
             <Property name="text" type="java.lang.String" value="Login"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JPasswordField" name="Contrase&#xf1;aLog">
+        <Component class="javax.swing.JPasswordField" name="ContraLog">
         </Component>
         <Component class="javax.swing.JTextField" name="UsuarioLog">
         </Component>

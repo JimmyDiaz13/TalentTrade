@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author lluviaFm
+ * @author Jimmy Diaz y Byron Monge
  */
 public class VistaLogin extends javax.swing.JFrame {
 
@@ -34,9 +34,9 @@ public class VistaLogin extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        GuardarLog = new javax.swing.JButton();
-        LoginLog = new javax.swing.JButton();
-        ContraseñaLog = new javax.swing.JPasswordField();
+        LoginButton = new javax.swing.JButton();
+        RegistrarseButton = new javax.swing.JButton();
+        ContraLog = new javax.swing.JPasswordField();
         UsuarioLog = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -63,9 +63,9 @@ public class VistaLogin extends javax.swing.JFrame {
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("Contraseña:");
 
-        GuardarLog.setText("Iniciar Sesión");
+        LoginButton.setText("Iniciar Sesión");
 
-        LoginLog.setText("Registrarse");
+        RegistrarseButton.setText("Registrarse");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/contraseña.png"))); // NOI18N
 
@@ -88,7 +88,7 @@ public class VistaLogin extends javax.swing.JFrame {
                             .addComponent(UsuarioLog, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(ContraseñaLog, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(ContraLog, javax.swing.GroupLayout.PREFERRED_SIZE, 209, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(74, 74, 74)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -98,8 +98,8 @@ public class VistaLogin extends javax.swing.JFrame {
                 .addGap(189, 189, 189))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(LoginLog, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(GuardarLog))
+                    .addComponent(RegistrarseButton, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(LoginButton))
                 .addGap(173, 173, 173))
         );
         jPanel1Layout.setVerticalGroup(
@@ -118,11 +118,11 @@ public class VistaLogin extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ContraseñaLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(ContraLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(26, 26, 26)
-                        .addComponent(GuardarLog)
+                        .addComponent(LoginButton)
                         .addGap(18, 18, 18)
-                        .addComponent(LoginLog)
+                        .addComponent(RegistrarseButton)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -139,6 +139,8 @@ public class VistaLogin extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+
+        getAccessibleContext().setAccessibleName("Talent Trade");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -179,29 +181,29 @@ public class VistaLogin extends javax.swing.JFrame {
     }
 
     public JPasswordField getContraseñaLog() {
-        return ContraseñaLog;
+        return ContraLog;
     }
 
     public void setContraseñaLog(JPasswordField ContraseñaLog) {
-        this.ContraseñaLog = ContraseñaLog;
+        this.ContraLog = ContraseñaLog;
     }
 
-    public JButton getGuardarLog() {
-        return GuardarLog;
+    public JButton getLoginButton() {
+        return LoginButton;
     }
 
-    public void setGuardarLog(JButton GuardarLog) {
-        this.GuardarLog = GuardarLog;
+    public void setLoginButton(JButton LoginButton) {
+        this.LoginButton = LoginButton;
     }
 
-    public JButton getLoginLog() {
-        return LoginLog;
+    public JButton getRegistrarseButton() {
+        return RegistrarseButton;
     }
 
-    public void setLoginLog(JButton LoginLog) {
-        this.LoginLog = LoginLog;
+    public void setRegistrarseButton(JButton RegistrarseButton) {
+        this.RegistrarseButton = RegistrarseButton;
     }
-
+    
     public JTextField getUsuarioLog() {
         return UsuarioLog;
     }
@@ -212,9 +214,9 @@ public class VistaLogin extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPasswordField ContraseñaLog;
-    private javax.swing.JButton GuardarLog;
-    private javax.swing.JButton LoginLog;
+    private javax.swing.JPasswordField ContraLog;
+    private javax.swing.JButton LoginButton;
+    private javax.swing.JButton RegistrarseButton;
     private javax.swing.JTextField UsuarioLog;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
